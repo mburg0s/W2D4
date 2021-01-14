@@ -101,8 +101,8 @@ console.assert(getPerimeter(10, 30) === 80);
 
 function countVowels(str) {
     var countVowel =0  
-    for (var i = 0; i<str.length ; i++) {
-        if (str[i] =='a' || str == 'e' || str == 'i' || str =='o' || str == 'u') {
+    for (var i = 0; i<=str.length-1 ; i++) {
+        if (str[i] =='a' || str[i] == 'e' || str[i] == 'i' || str[i] =='o' || str[i] == 'u') {
             countVowel = countVowel + 1
         }
     }
